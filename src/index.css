@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(208, 213, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(208, 213, 86, 1) 37%,
+    rgba(9, 24, 121, 1) 78%
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerdiv {
+  /* background-color: rgb(251, 218, 100); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  background-image: url(https://w0.peakpx.com/wallpaper/714/680/HD-wallpaper-fb-sports-thumbnail.jpg);
+  min-width: 300px;
+}
+
+.player-card {
+  height: 400px;
+  max-width: 280px;
+  min-width: 230px;
+  background: rgb(208, 213, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(208, 213, 86, 1) 18%,
+    rgba(9, 24, 121, 1) 92%
+  );
+  color: white;
+}
+.player-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.player-logo {
+  height: 350px;
+}
+
+.player-card:hover .player-logo {
+  transform: scale(0.95);
+}
+
+.player-logo {
+  transition: transform 0.2s;
+}
